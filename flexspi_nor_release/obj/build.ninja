@@ -1,0 +1,262 @@
+#Generating source browse information for project smart_washing_machine
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build fsl_tickless_systick.pbi : index fsl_tickless_systick.xcl
+build heap_4.pbi : index heap_4.xcl
+build port.pbi : index port.xcl
+build event_groups.pbi : index event_groups.xcl
+build list.pbi : index list.xcl
+build queue.pbi : index queue.xcl
+build stream_buffer.pbi : index stream_buffer.xcl
+build tasks.pbi : index tasks.xcl
+build timers.pbi : index timers.xcl
+build board.pbi : index board.xcl
+build clock_config.pbi : index clock_config.xcl
+build pin_mux.pbi : index pin_mux.xcl
+build at_api.pbi : index at_api.xcl
+build at_parser.pbi : index at_parser.xcl
+build root_ca.pbi : index root_ca.xcl
+build dm_api.pbi : index dm_api.xcl
+build dm_client.pbi : index dm_client.xcl
+build dm_client_adapter.pbi : index dm_client_adapter.xcl
+build dm_cota.pbi : index dm_cota.xcl
+build dm_fota.pbi : index dm_fota.xcl
+build dm_ipc.pbi : index dm_ipc.xcl
+build dm_log_report.pbi : index dm_log_report.xcl
+build dm_manager.pbi : index dm_manager.xcl
+build dm_message.pbi : index dm_message.xcl
+build dm_message_cache.pbi : index dm_message_cache.xcl
+build dm_msg_process.pbi : index dm_msg_process.xcl
+build dm_opt.pbi : index dm_opt.xcl
+build dm_ota.pbi : index dm_ota.xcl
+build dm_server.pbi : index dm_server.xcl
+build dm_server_adapter.pbi : index dm_server_adapter.xcl
+build dm_shadow.pbi : index dm_shadow.xcl
+build dm_tsl_alink.pbi : index dm_tsl_alink.xcl
+build dm_utils.pbi : index dm_utils.xcl
+build impl_gateway.pbi : index impl_gateway.xcl
+build impl_linkkit.pbi : index impl_linkkit.xcl
+build impl_ntp.pbi : index impl_ntp.xcl
+build impl_solo.pbi : index impl_solo.xcl
+build iotx_cm.pbi : index iotx_cm.xcl
+build iotx_cm_coap.pbi : index iotx_cm_coap.xcl
+build iotx_cm_mqtt.pbi : index iotx_cm_mqtt.xcl
+build dev_sign_mqtt.pbi : index dev_sign_mqtt.xcl
+build infra_cjson.pbi : index infra_cjson.xcl
+build infra_compat.pbi : index infra_compat.xcl
+build infra_defs.pbi : index infra_defs.xcl
+build infra_log.pbi : index infra_log.xcl
+build infra_net.pbi : index infra_net.xcl
+build infra_report.pbi : index infra_report.xcl
+build infra_sha256.pbi : index infra_sha256.xcl
+build infra_string.pbi : index infra_string.xcl
+build infra_timer.pbi : index infra_timer.xcl
+build iotx_mqtt_client.pbi : index iotx_mqtt_client.xcl
+build mqtt_api.pbi : index mqtt_api.xcl
+build MQTTConnectClient.pbi : index MQTTConnectClient.xcl
+build MQTTDeserializePublish.pbi : index MQTTDeserializePublish.xcl
+build MQTTPacket.pbi : index MQTTPacket.xcl
+build MQTTSerializePublish.pbi : index MQTTSerializePublish.xcl
+build MQTTSubscribeClient.pbi : index MQTTSubscribeClient.xcl
+build MQTTUnsubscribeClient.pbi : index MQTTUnsubscribeClient.xcl
+build cJSON.pbi : index cJSON.xcl
+build wrapper.pbi : index wrapper.xcl
+build system_MIMXRT1052.pbi : index system_MIMXRT1052.xcl
+build kv.pbi : index kv.xcl
+build kv_adapt.pbi : index kv_adapt.xcl
+build kv_cli.pbi : index kv_cli.xcl
+build kv_secure.pbi : index kv_secure.xcl
+build generic_list.pbi : index generic_list.xcl
+build serial_manager.pbi : index serial_manager.xcl
+build serial_port_uart.pbi : index serial_port_uart.xcl
+build lpuart_adapter.pbi : index lpuart_adapter.xcl
+build fsl_cache.pbi : index fsl_cache.xcl
+build fsl_clock.pbi : index fsl_clock.xcl
+build fsl_common.pbi : index fsl_common.xcl
+build fsl_dcp.pbi : index fsl_dcp.xcl
+build fsl_dmamux.pbi : index fsl_dmamux.xcl
+build fsl_edma.pbi : index fsl_edma.xcl
+build fsl_elcdif.pbi : index fsl_elcdif.xcl
+build fsl_flexspi.pbi : index fsl_flexspi.xcl
+build fsl_gpio.pbi : index fsl_gpio.xcl
+build fsl_lpi2c.pbi : index fsl_lpi2c.xcl
+build fsl_lpuart.pbi : index fsl_lpuart.xcl
+build fsl_lpuart_edma.pbi : index fsl_lpuart_edma.xcl
+build fsl_pwm.pbi : index fsl_pwm.xcl
+build fsl_pxp.pbi : index fsl_pxp.xcl
+build fsl_snvs_hp.pbi : index fsl_snvs_hp.xcl
+build fsl_trng.pbi : index fsl_trng.xcl
+build fsl_usdhc.pbi : index fsl_usdhc.xcl
+build fsl_xbara.pbi : index fsl_xbara.xcl
+build Application.pbi : index Application.xcl
+build Core.pbi : index Core.xcl
+build Effects.pbi : index Effects.xcl
+build Graphics.pbi : index Graphics.xcl
+build Resources.pbi : index Resources.xcl
+build Templates.pbi : index Templates.xcl
+build Views.pbi : index Views.xcl
+build Washer.pbi : index Washer.xcl
+build ewextgfx.pbi : index ewextgfx.xcl
+build ewextrte.pbi : index ewextrte.xcl
+build ew_bsp_clock.pbi : index ew_bsp_clock.xcl
+build ew_bsp_display.pbi : index ew_bsp_display.xcl
+build ew_bsp_event.pbi : index ew_bsp_event.xcl
+build ew_bsp_graphics.pbi : index ew_bsp_graphics.xcl
+build ew_bsp_inout.pbi : index ew_bsp_inout.xcl
+build ew_bsp_serial.pbi : index ew_bsp_serial.xcl
+build ew_bsp_system.pbi : index ew_bsp_system.xcl
+build ew_bsp_touch.pbi : index ew_bsp_touch.xcl
+build tlsf.pbi : index tlsf.xcl
+build DeviceDriver.pbi : index DeviceDriver.xcl
+build ewmain.pbi : index ewmain.xcl
+build esp8266_at.pbi : index esp8266_at.xcl
+build aes.pbi : index aes.xcl
+build aesni.pbi : index aesni.xcl
+build arc4.pbi : index arc4.xcl
+build aria.pbi : index aria.xcl
+build asn1parse.pbi : index asn1parse.xcl
+build asn1write.pbi : index asn1write.xcl
+build base64.pbi : index base64.xcl
+build bignum.pbi : index bignum.xcl
+build blowfish.pbi : index blowfish.xcl
+build camellia.pbi : index camellia.xcl
+build ccm.pbi : index ccm.xcl
+build certs.pbi : index certs.xcl
+build chacha20.pbi : index chacha20.xcl
+build chachapoly.pbi : index chachapoly.xcl
+build cipher.pbi : index cipher.xcl
+build cipher_wrap.pbi : index cipher_wrap.xcl
+build cmac.pbi : index cmac.xcl
+build ctr_drbg.pbi : index ctr_drbg.xcl
+build debug.pbi : index debug.xcl
+build des.pbi : index des.xcl
+build dhm.pbi : index dhm.xcl
+build ecdh.pbi : index ecdh.xcl
+build ecdsa.pbi : index ecdsa.xcl
+build ecjpake.pbi : index ecjpake.xcl
+build ecp.pbi : index ecp.xcl
+build ecp_curves.pbi : index ecp_curves.xcl
+build entropy.pbi : index entropy.xcl
+build entropy_poll.pbi : index entropy_poll.xcl
+build error.pbi : index error.xcl
+build gcm.pbi : index gcm.xcl
+build havege.pbi : index havege.xcl
+build hkdf.pbi : index hkdf.xcl
+build hmac_drbg.pbi : index hmac_drbg.xcl
+build md.pbi : index md.xcl
+build md2.pbi : index md2.xcl
+build md4.pbi : index md4.xcl
+build md5.pbi : index md5.xcl
+build md_wrap.pbi : index md_wrap.xcl
+build memory_buffer_alloc.pbi : index memory_buffer_alloc.xcl
+build net_sockets.pbi : index net_sockets.xcl
+build nist_kw.pbi : index nist_kw.xcl
+build oid.pbi : index oid.xcl
+build padlock.pbi : index padlock.xcl
+build pem.pbi : index pem.xcl
+build pk.pbi : index pk.xcl
+build pk_wrap.pbi : index pk_wrap.xcl
+build pkcs11.pbi : index pkcs11.xcl
+build pkcs12.pbi : index pkcs12.xcl
+build pkcs5.pbi : index pkcs5.xcl
+build pkparse.pbi : index pkparse.xcl
+build pkwrite.pbi : index pkwrite.xcl
+build platform.pbi : index platform.xcl
+build platform_util.pbi : index platform_util.xcl
+build poly1305.pbi : index poly1305.xcl
+build ripemd160.pbi : index ripemd160.xcl
+build rsa.pbi : index rsa.xcl
+build rsa_internal.pbi : index rsa_internal.xcl
+build sha1.pbi : index sha1.xcl
+build sha256.pbi : index sha256.xcl
+build sha512.pbi : index sha512.xcl
+build ssl_cache.pbi : index ssl_cache.xcl
+build ssl_ciphersuites.pbi : index ssl_ciphersuites.xcl
+build ssl_cli.pbi : index ssl_cli.xcl
+build ssl_cookie.pbi : index ssl_cookie.xcl
+build ssl_srv.pbi : index ssl_srv.xcl
+build ssl_ticket.pbi : index ssl_ticket.xcl
+build ssl_tls.pbi : index ssl_tls.xcl
+build threading.pbi : index threading.xcl
+build timing.pbi : index timing.xcl
+build version.pbi : index version.xcl
+build version_features.pbi : index version_features.xcl
+build x509.pbi : index x509.xcl
+build x509_create.pbi : index x509_create.xcl
+build x509_crl.pbi : index x509_crl.xcl
+build x509_crt.pbi : index x509_crt.xcl
+build x509_csr.pbi : index x509_csr.xcl
+build x509write_crt.pbi : index x509write_crt.xcl
+build x509write_csr.pbi : index x509write_csr.xcl
+build xtea.pbi : index xtea.xcl
+build aes_alt.pbi : index aes_alt.xcl
+build des_alt.pbi : index des_alt.xcl
+build ecp_alt.pbi : index ecp_alt.xcl
+build ecp_alt_ksdk.pbi : index ecp_alt_ksdk.xcl
+build ecp_curves_alt.pbi : index ecp_curves_alt.xcl
+build ksdk_mbedtls.pbi : index ksdk_mbedtls.xcl
+build flexspi_hyper_flash_ops.pbi : index flexspi_hyper_flash_ops.xcl
+build fsl_lpuart_freertos.pbi : index fsl_lpuart_freertos.xcl
+build ip_cmd.pbi : index ip_cmd.xcl
+build shell.pbi : index shell.xcl
+build virtual_com.pbi : index virtual_com.xcl
+build lighting.pbi : index lighting.xcl
+build i2c.pbi : index i2c.xcl
+build pca9634.pbi : index pca9634.xcl
+build rgb_light.pbi : index rgb_light.xcl
+build washing_machine.pbi : index washing_machine.xcl
+build wiced_iperf.pbi : index wiced_iperf.xcl
+build fsl_ft5406_rt.pbi : index fsl_ft5406_rt.xcl
+build usb_device_cdc_acm.pbi : index usb_device_cdc_acm.xcl
+build usb_device_class.pbi : index usb_device_class.xcl
+build usb_device_ehci.pbi : index usb_device_ehci.xcl
+build usb_device_ch9.pbi : index usb_device_ch9.xcl
+build usb_device_dci.pbi : index usb_device_dci.xcl
+build usb_device_descriptor.pbi : index usb_device_descriptor.xcl
+build usb_osa_freertos.pbi : index usb_osa_freertos.xcl
+build usb_phy.pbi : index usb_phy.xcl
+build fsl_assert.pbi : index fsl_assert.xcl
+build fsl_debug_console.pbi : index fsl_debug_console.xcl
+build fsl_shell.pbi : index fsl_shell.xcl
+build fsl_str.pbi : index fsl_str.xcl
+build evkbimxrt1050_flexspi_nor_config.pbi : index evkbimxrt1050_flexspi_nor_config.xcl
+build evkbimxrt1050_sdram_ini_dcd.pbi : index evkbimxrt1050_sdram_ini_dcd.xcl
+build fsl_flexspi_nor_boot.pbi : index fsl_flexspi_nor_boot.xcl
+build smart_washing_machine_part0.pbi : link fsl_tickless_systick.pbi heap_4.pbi port.pbi event_groups.pbi list.pbi queue.pbi stream_buffer.pbi tasks.pbi timers.pbi board.pbi clock_config.pbi pin_mux.pbi at_api.pbi at_parser.pbi root_ca.pbi
+build smart_washing_machine_part1.pbi : link dm_api.pbi dm_client.pbi dm_client_adapter.pbi dm_cota.pbi dm_fota.pbi dm_ipc.pbi dm_log_report.pbi dm_manager.pbi dm_message.pbi dm_message_cache.pbi dm_msg_process.pbi dm_opt.pbi dm_ota.pbi dm_server.pbi dm_server_adapter.pbi
+build smart_washing_machine_part2.pbi : link dm_shadow.pbi dm_tsl_alink.pbi dm_utils.pbi impl_gateway.pbi impl_linkkit.pbi impl_ntp.pbi impl_solo.pbi iotx_cm.pbi iotx_cm_coap.pbi iotx_cm_mqtt.pbi dev_sign_mqtt.pbi infra_cjson.pbi infra_compat.pbi infra_defs.pbi infra_log.pbi
+build smart_washing_machine_part3.pbi : link infra_net.pbi infra_report.pbi infra_sha256.pbi infra_string.pbi infra_timer.pbi iotx_mqtt_client.pbi mqtt_api.pbi MQTTConnectClient.pbi MQTTDeserializePublish.pbi MQTTPacket.pbi MQTTSerializePublish.pbi MQTTSubscribeClient.pbi MQTTUnsubscribeClient.pbi cJSON.pbi wrapper.pbi
+build smart_washing_machine_part4.pbi : link system_MIMXRT1052.pbi kv.pbi kv_adapt.pbi kv_cli.pbi kv_secure.pbi generic_list.pbi serial_manager.pbi serial_port_uart.pbi lpuart_adapter.pbi fsl_cache.pbi fsl_clock.pbi fsl_common.pbi fsl_dcp.pbi fsl_dmamux.pbi fsl_edma.pbi
+build smart_washing_machine_part5.pbi : link fsl_elcdif.pbi fsl_flexspi.pbi fsl_gpio.pbi fsl_lpi2c.pbi fsl_lpuart.pbi fsl_lpuart_edma.pbi fsl_pwm.pbi fsl_pxp.pbi fsl_snvs_hp.pbi fsl_trng.pbi fsl_usdhc.pbi fsl_xbara.pbi Application.pbi Core.pbi Effects.pbi
+build smart_washing_machine_part6.pbi : link Graphics.pbi Resources.pbi Templates.pbi Views.pbi Washer.pbi ewextgfx.pbi ewextrte.pbi ew_bsp_clock.pbi ew_bsp_display.pbi ew_bsp_event.pbi ew_bsp_graphics.pbi ew_bsp_inout.pbi ew_bsp_serial.pbi ew_bsp_system.pbi ew_bsp_touch.pbi
+build smart_washing_machine_part7.pbi : link tlsf.pbi DeviceDriver.pbi ewmain.pbi esp8266_at.pbi aes.pbi aesni.pbi arc4.pbi aria.pbi asn1parse.pbi asn1write.pbi base64.pbi bignum.pbi blowfish.pbi camellia.pbi ccm.pbi
+build smart_washing_machine_part8.pbi : link certs.pbi chacha20.pbi chachapoly.pbi cipher.pbi cipher_wrap.pbi cmac.pbi ctr_drbg.pbi debug.pbi des.pbi dhm.pbi ecdh.pbi ecdsa.pbi ecjpake.pbi ecp.pbi ecp_curves.pbi
+build smart_washing_machine_part9.pbi : link entropy.pbi entropy_poll.pbi error.pbi gcm.pbi havege.pbi hkdf.pbi hmac_drbg.pbi md.pbi md2.pbi md4.pbi md5.pbi md_wrap.pbi memory_buffer_alloc.pbi net_sockets.pbi nist_kw.pbi
+build smart_washing_machine_part10.pbi : link oid.pbi padlock.pbi pem.pbi pk.pbi pk_wrap.pbi pkcs11.pbi pkcs12.pbi pkcs5.pbi pkparse.pbi pkwrite.pbi platform.pbi platform_util.pbi poly1305.pbi ripemd160.pbi rsa.pbi
+build smart_washing_machine_part11.pbi : link rsa_internal.pbi sha1.pbi sha256.pbi sha512.pbi ssl_cache.pbi ssl_ciphersuites.pbi ssl_cli.pbi ssl_cookie.pbi ssl_srv.pbi ssl_ticket.pbi ssl_tls.pbi threading.pbi timing.pbi version.pbi version_features.pbi
+build smart_washing_machine_part12.pbi : link x509.pbi x509_create.pbi x509_crl.pbi x509_crt.pbi x509_csr.pbi x509write_crt.pbi x509write_csr.pbi xtea.pbi aes_alt.pbi des_alt.pbi ecp_alt.pbi ecp_alt_ksdk.pbi ecp_curves_alt.pbi ksdk_mbedtls.pbi flexspi_hyper_flash_ops.pbi
+build smart_washing_machine_part13.pbi : link fsl_lpuart_freertos.pbi ip_cmd.pbi shell.pbi virtual_com.pbi lighting.pbi i2c.pbi pca9634.pbi rgb_light.pbi washing_machine.pbi wiced_iperf.pbi fsl_ft5406_rt.pbi usb_device_cdc_acm.pbi usb_device_class.pbi usb_device_ehci.pbi usb_device_ch9.pbi
+build smart_washing_machine_part14.pbi : link usb_device_dci.pbi usb_device_descriptor.pbi usb_osa_freertos.pbi usb_phy.pbi fsl_assert.pbi fsl_debug_console.pbi fsl_shell.pbi fsl_str.pbi evkbimxrt1050_flexspi_nor_config.pbi evkbimxrt1050_sdram_ini_dcd.pbi fsl_flexspi_nor_boot.pbi
+build smart_washing_machine.pbd : link smart_washing_machine_part0.pbi smart_washing_machine_part1.pbi smart_washing_machine_part2.pbi smart_washing_machine_part3.pbi smart_washing_machine_part4.pbi smart_washing_machine_part5.pbi smart_washing_machine_part6.pbi smart_washing_machine_part7.pbi smart_washing_machine_part8.pbi smart_washing_machine_part9.pbi smart_washing_machine_part10.pbi smart_washing_machine_part11.pbi smart_washing_machine_part12.pbi smart_washing_machine_part13.pbi smart_washing_machine_part14.pbi
+build smart_washing_machine.pbw : browsedata smart_washing_machine.pbd
+
+

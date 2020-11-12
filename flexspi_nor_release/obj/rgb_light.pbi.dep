@@ -1,0 +1,70 @@
+rgb_light.pbi: \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\source\demo_rgb\rgb_light.c \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\source\app_preinclude.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\infra\infra_config.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\string.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Product_string.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdlib.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Product_stdlib.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\infra\infra_types.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stddef.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\infra/infra_config.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdint.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\infra\infra_defs.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\infra/infra_types.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\infra\infra_compat.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\infra/infra_defs.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\infra/infra_list.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\infra/infra_compat.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\dev_model\dev_model_api.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\dev_model\dm_wrapper.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\wrappers\wrappers_defs.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdarg.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\wrappers\external_libs\cJSON.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\atm\at_api.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/amazon-freertos/include\FreeRTOS.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/source\FreeRTOSConfig.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/amazon-freertos/include/projdefs.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/amazon-freertos/include/portable.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/amazon-freertos/include/deprecated_definitions.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/amazon-freertos/FreeRTOS/portable\portmacro.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\intrinsics.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\iccarm_builtin.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\iar_intrinsics_common.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/amazon-freertos/include/mpu_wrappers.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/amazon-freertos/include\semphr.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/amazon-freertos/include/queue.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/amazon-freertos/include/task.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/amazon-freertos/include/list.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/amazon-freertos/include\timers.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/amazon-freertos/include\queue.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/drivers\fsl_pwm.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/drivers/fsl_common.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\assert.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdbool.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/CMSIS\fsl_device_registers.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/CMSIS/MIMXRT1052.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/CMSIS/core_cm7.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/CMSIS/cmsis_version.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/CMSIS/cmsis_compiler.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/CMSIS\cmsis_iccarm.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/CMSIS/mpu_armv7.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/CMSIS/system_MIMXRT1052.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/CMSIS/MIMXRT1052_features.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/drivers/fsl_clock.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/board\board.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/board/clock_config.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/drivers\fsl_common.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/drivers\fsl_gpio.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/drivers\fsl_clock.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/drivers\fsl_iomuxc.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/utilities\fsl_debug_console.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/component/serial_manager\serial_manager.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266/component/serial_manager/serial_port_uart.h

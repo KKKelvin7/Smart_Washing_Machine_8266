@@ -1,0 +1,56 @@
+ewmain.pbi: \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\ewmain.c \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\source\app_preinclude.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\TLSF\tlsf.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stddef.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\ysizet.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\RTE\ewrte.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\RGB565\ewgfx.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\RGB565/ewextbmp.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\RGB565/ewextfnt.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\RGB565/ewgfxdriver.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\RGB565/ewgfxcore.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\RGB565\ewextgfx.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\RGB565\ewgfxdefs.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode\Core.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreCursorEvent.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreEvent.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreCursorGrabEvent.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreCursorHit.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreDialogContext.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreDragEvent.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreGroup.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreRectView.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreView.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreKeyEvent.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreKeyPressHandler.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreLayoutContext.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreLayoutQuadContext.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreModalContext.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreOutline.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CorePropertyObserver.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreQuadView.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreResource.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreRoot.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreTimer.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreSimpleTouchHandler.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreSlideTouchHandler.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreSystemEvent.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreSystemEventHandler.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreSystemEventTask.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreTask.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreTaskQueue.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_CoreVerticalList.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode\Graphics.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_GraphicsCanvas.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\GeneratedCode/_ResourcesBitmap.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\TargetSpecific\ew_bsp_clock.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\TargetSpecific\ew_bsp_event.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\TargetSpecific\ew_bsp_display.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\TargetSpecific\ew_bsp_touch.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui/DeviceDriver.h
