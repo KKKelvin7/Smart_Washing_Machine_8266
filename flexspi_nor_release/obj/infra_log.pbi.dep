@@ -1,7 +1,7 @@
 infra_log.pbi: \
-  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\infra\infra_config.h \
-  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\source\app_preinclude.h \
   C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\infra\infra_log.c \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\source\app_preinclude.h \
+  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\infra/infra_config.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\string.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\ycheck.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\yvals.h \
@@ -15,7 +15,6 @@ infra_log.pbi: \
   C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\infra/infra_defs.h \
   C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\infra/infra_types.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stddef.h \
-  C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\infra/infra_config.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdint.h \
   C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\infra/infra_list.h \
   C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\c-sdk\infra/infra_log.h \

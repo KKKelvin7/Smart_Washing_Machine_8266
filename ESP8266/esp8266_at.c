@@ -31,7 +31,7 @@ uint8_t FindStr(char* dest,char* src,uint16_t retry_nms)
 
 	while(strstr(dest,src)==0 && retry_nms--)//等待串口接收完毕或超时退出
 	{		
-		vTaskDelay(500);
+		vTaskDelay(200);
 	}
 
 	if(retry_nms) return 1;                       
