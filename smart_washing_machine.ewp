@@ -1491,7 +1491,7 @@
                 <option>
                     <name>CCAllowList</name>
                     <version>1</version>
-                    <state>11111110</state>
+                    <state>00000000</state>
                 </option>
                 <option>
                     <name>CCDebugInfo</name>
@@ -1585,7 +1585,6 @@
                     <state>$PROJ_DIR$\emgui\TargetSpecific</state>
                     <state>$PROJ_DIR$\emgui\TLSF</state>
                     <state>$PROJ_DIR$\emgui</state>
-                    <state>$PROJ_DIR$\mbedtls\include\mbedtls</state>
                     <state>$PROJ_DIR$\mbedtls\port\ksdk</state>
                     <state>$PROJ_DIR$\source\common_drivers</state>
                     <state>$PROJ_DIR$\source\demo_wm</state>
@@ -1613,7 +1612,7 @@
                 </option>
                 <option>
                     <name>CCOptLevel</name>
-                    <state>2</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>CCOptStrategy</name>
@@ -1622,7 +1621,7 @@
                 </option>
                 <option>
                     <name>CCOptLevelSlave</name>
-                    <state>2</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>CompilerMisraRules98</name>
@@ -2827,10 +2826,25 @@
                 <name>$PROJ_DIR$\c-sdk\atm\at_api.h</name>
             </file>
             <file>
+                <name>$PROJ_DIR$\c-sdk\atm\at_conn_mbox.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\c-sdk\atm\at_conn_mbox.h</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\c-sdk\atm\at_conn_mgmt.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\c-sdk\atm\at_conn_mgmt.h</name>
+            </file>
+            <file>
                 <name>$PROJ_DIR$\c-sdk\atm\at_parser.c</name>
             </file>
             <file>
                 <name>$PROJ_DIR$\c-sdk\atm\at_parser.h</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\c-sdk\atm\at_tcp.c</name>
             </file>
             <file>
                 <name>$PROJ_DIR$\c-sdk\atm\at_wrapper.h</name>
@@ -3168,6 +3182,18 @@
                     <name>$PROJ_DIR$\c-sdk\wrappers\external_libs\cJSON.h</name>
                 </file>
             </group>
+            <group>
+                <name>TLS</name>
+                <file>
+                    <name>$PROJ_DIR$\c-sdk\wrappers\tls\HAL_DTLS_mbedtls.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\c-sdk\wrappers\tls\HAL_TLS_mbedtls.c</name>
+                </file>
+            </group>
+            <file>
+                <name>$PROJ_DIR$\c-sdk\wrappers\esp8266.c</name>
+            </file>
             <file>
                 <name>$PROJ_DIR$\c-sdk\wrappers\wrapper.c</name>
             </file>

@@ -921,10 +921,10 @@ uint32_t HAL_Random(uint32_t region)
  * 注意! 参考示例实现仅用于解释各个 HAL_XXX() 系列函数的语义!
  * 
  */
-int32_t HAL_SSL_Destroy(uintptr_t handle)
-{
-	return (int32_t)1;
-}
+//int32_t HAL_SSL_Destroy(uintptr_t handle)
+//{
+//	return (int32_t)1;
+//}
 
 
 /**
@@ -945,10 +945,10 @@ int32_t HAL_SSL_Destroy(uintptr_t handle)
  * 注意! 参考示例实现仅用于解释各个 HAL_XXX() 系列函数的语义!
  * 
  */
-uintptr_t HAL_SSL_Establish(const char *host, uint16_t port, const char *ca_crt, uint32_t ca_crt_len)
-{
-	return (uintptr_t)1;
-}
+//uintptr_t HAL_SSL_Establish(const char *host, uint16_t port, const char *ca_crt, uint32_t ca_crt_len)
+//{
+//	return (uintptr_t)1;
+//}
 
 
 /**
@@ -969,10 +969,10 @@ uintptr_t HAL_SSL_Establish(const char *host, uint16_t port, const char *ca_crt,
  * 注意! 参考示例实现仅用于解释各个 HAL_XXX() 系列函数的语义!
  * 
  */
-int HAL_SSL_Read(uintptr_t handle, char *buf, int len, int timeout_ms)
-{
-	return (int)1;
-}
+//int HAL_SSL_Read(uintptr_t handle, char *buf, int len, int timeout_ms)
+//{
+//	return (int)1;
+//}
 
 
 /**
@@ -993,10 +993,10 @@ int HAL_SSL_Read(uintptr_t handle, char *buf, int len, int timeout_ms)
  * 注意! 参考示例实现仅用于解释各个 HAL_XXX() 系列函数的语义!
  * 
  */
-int HAL_SSL_Write(uintptr_t handle, const char *buf, int len, int timeout_ms)
-{
-	return (int)1;
-}
+//int HAL_SSL_Write(uintptr_t handle, const char *buf, int len, int timeout_ms)
+//{
+//	return (int)1;
+//}
 
 
 /**

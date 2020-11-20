@@ -8,12 +8,12 @@
 #define INFRA_NET
 #define INFRA_LIST
 #define INFRA_LOG
-#define INFRA_LOG_ALL_MUTED
+//#define INFRA_LOG_ALL_MUTED
 #define INFRA_LOG_MUTE_FLW
-#define INFRA_LOG_MUTE_DBG
+//#define INFRA_LOG_MUTE_DBG
 #define INFRA_LOG_MUTE_INF
 #define INFRA_LOG_MUTE_WRN
-#define INFRA_LOG_MUTE_ERR
+//#define INFRA_LOG_MUTE_ERR
 #define INFRA_LOG_MUTE_CRT
 #define INFRA_TIMER
 #define INFRA_CJSON
@@ -28,9 +28,10 @@
 #define LOG_REPORT_TO_CLOUD
 #define DEVICE_MODEL_ENABLED
 #define DEVICE_MODEL_SHADOW
-#define SUPPORT_TLS
+//#define SUPPORT_TLS
 #define ATM_ENABLED
 #define AT_PARSER_ENABLED
 #define AT_HAL_NONE
+#define AT_TCP_ENABLED
 
 #endif

@@ -33,7 +33,10 @@ build board.pbi : index board.xcl
 build clock_config.pbi : index clock_config.xcl
 build pin_mux.pbi : index pin_mux.xcl
 build at_api.pbi : index at_api.xcl
+build at_conn_mbox.pbi : index at_conn_mbox.xcl
+build at_conn_mgmt.pbi : index at_conn_mgmt.xcl
 build at_parser.pbi : index at_parser.xcl
+build at_tcp.pbi : index at_tcp.xcl
 build root_ca.pbi : index root_ca.xcl
 build dm_api.pbi : index dm_api.xcl
 build dm_client.pbi : index dm_client.xcl
@@ -79,6 +82,9 @@ build MQTTSerializePublish.pbi : index MQTTSerializePublish.xcl
 build MQTTSubscribeClient.pbi : index MQTTSubscribeClient.xcl
 build MQTTUnsubscribeClient.pbi : index MQTTUnsubscribeClient.xcl
 build cJSON.pbi : index cJSON.xcl
+build HAL_DTLS_mbedtls.pbi : index HAL_DTLS_mbedtls.xcl
+build HAL_TLS_mbedtls.pbi : index HAL_TLS_mbedtls.xcl
+build esp8266.pbi : index esp8266.xcl
 build wrapper.pbi : index wrapper.xcl
 build system_MIMXRT1052.pbi : index system_MIMXRT1052.xcl
 build kv.pbi : index kv.xcl
@@ -241,22 +247,23 @@ build fsl_str.pbi : index fsl_str.xcl
 build evkbimxrt1050_flexspi_nor_config.pbi : index evkbimxrt1050_flexspi_nor_config.xcl
 build evkbimxrt1050_sdram_ini_dcd.pbi : index evkbimxrt1050_sdram_ini_dcd.xcl
 build fsl_flexspi_nor_boot.pbi : index fsl_flexspi_nor_boot.xcl
-build smart_washing_machine_part0.pbi : link fsl_tickless_systick.pbi heap_4.pbi port.pbi event_groups.pbi list.pbi queue.pbi stream_buffer.pbi tasks.pbi timers.pbi board.pbi clock_config.pbi pin_mux.pbi at_api.pbi at_parser.pbi root_ca.pbi
-build smart_washing_machine_part1.pbi : link dm_api.pbi dm_client.pbi dm_client_adapter.pbi dm_cota.pbi dm_fota.pbi dm_ipc.pbi dm_log_report.pbi dm_manager.pbi dm_message.pbi dm_message_cache.pbi dm_msg_process.pbi dm_opt.pbi dm_ota.pbi dm_server.pbi dm_server_adapter.pbi
-build smart_washing_machine_part2.pbi : link dm_shadow.pbi dm_tsl_alink.pbi dm_utils.pbi impl_gateway.pbi impl_linkkit.pbi impl_ntp.pbi impl_solo.pbi iotx_cm.pbi iotx_cm_coap.pbi iotx_cm_mqtt.pbi dev_sign_mqtt.pbi infra_cjson.pbi infra_compat.pbi infra_defs.pbi infra_log.pbi
-build smart_washing_machine_part3.pbi : link infra_net.pbi infra_report.pbi infra_sha256.pbi infra_string.pbi infra_timer.pbi iotx_mqtt_client.pbi mqtt_api.pbi MQTTConnectClient.pbi MQTTDeserializePublish.pbi MQTTPacket.pbi MQTTSerializePublish.pbi MQTTSubscribeClient.pbi MQTTUnsubscribeClient.pbi cJSON.pbi wrapper.pbi
-build smart_washing_machine_part4.pbi : link system_MIMXRT1052.pbi kv.pbi kv_adapt.pbi kv_cli.pbi kv_secure.pbi generic_list.pbi serial_manager.pbi serial_port_uart.pbi lpuart_adapter.pbi fsl_cache.pbi fsl_clock.pbi fsl_common.pbi fsl_dcp.pbi fsl_dmamux.pbi fsl_edma.pbi
-build smart_washing_machine_part5.pbi : link fsl_elcdif.pbi fsl_flexspi.pbi fsl_gpio.pbi fsl_lpi2c.pbi fsl_lpuart.pbi fsl_lpuart_edma.pbi fsl_pwm.pbi fsl_pxp.pbi fsl_snvs_hp.pbi fsl_trng.pbi fsl_usdhc.pbi fsl_xbara.pbi Application.pbi Core.pbi Effects.pbi
-build smart_washing_machine_part6.pbi : link Graphics.pbi Resources.pbi Templates.pbi Views.pbi Washer.pbi ewextgfx.pbi ewextrte.pbi ew_bsp_clock.pbi ew_bsp_display.pbi ew_bsp_event.pbi ew_bsp_graphics.pbi ew_bsp_inout.pbi ew_bsp_serial.pbi ew_bsp_system.pbi ew_bsp_touch.pbi
-build smart_washing_machine_part7.pbi : link tlsf.pbi DeviceDriver.pbi ewmain.pbi esp8266_at.pbi aes.pbi aesni.pbi arc4.pbi aria.pbi asn1parse.pbi asn1write.pbi base64.pbi bignum.pbi blowfish.pbi camellia.pbi ccm.pbi
-build smart_washing_machine_part8.pbi : link certs.pbi chacha20.pbi chachapoly.pbi cipher.pbi cipher_wrap.pbi cmac.pbi ctr_drbg.pbi debug.pbi des.pbi dhm.pbi ecdh.pbi ecdsa.pbi ecjpake.pbi ecp.pbi ecp_curves.pbi
-build smart_washing_machine_part9.pbi : link entropy.pbi entropy_poll.pbi error.pbi gcm.pbi havege.pbi hkdf.pbi hmac_drbg.pbi md.pbi md2.pbi md4.pbi md5.pbi md_wrap.pbi memory_buffer_alloc.pbi net_sockets.pbi nist_kw.pbi
-build smart_washing_machine_part10.pbi : link oid.pbi padlock.pbi pem.pbi pk.pbi pk_wrap.pbi pkcs11.pbi pkcs12.pbi pkcs5.pbi pkparse.pbi pkwrite.pbi platform.pbi platform_util.pbi poly1305.pbi ripemd160.pbi rsa.pbi
-build smart_washing_machine_part11.pbi : link rsa_internal.pbi sha1.pbi sha256.pbi sha512.pbi ssl_cache.pbi ssl_ciphersuites.pbi ssl_cli.pbi ssl_cookie.pbi ssl_srv.pbi ssl_ticket.pbi ssl_tls.pbi threading.pbi timing.pbi version.pbi version_features.pbi
-build smart_washing_machine_part12.pbi : link x509.pbi x509_create.pbi x509_crl.pbi x509_crt.pbi x509_csr.pbi x509write_crt.pbi x509write_csr.pbi xtea.pbi aes_alt.pbi des_alt.pbi ecp_alt.pbi ecp_alt_ksdk.pbi ecp_curves_alt.pbi ksdk_mbedtls.pbi flexspi_hyper_flash_ops.pbi
-build smart_washing_machine_part13.pbi : link fsl_lpuart_freertos.pbi ip_cmd.pbi shell.pbi virtual_com.pbi lighting.pbi i2c.pbi pca9634.pbi rgb_light.pbi washing_machine.pbi wiced_iperf.pbi fsl_ft5406_rt.pbi usb_device_cdc_acm.pbi usb_device_class.pbi usb_device_ehci.pbi usb_device_ch9.pbi
-build smart_washing_machine_part14.pbi : link usb_device_dci.pbi usb_device_descriptor.pbi usb_osa_freertos.pbi usb_phy.pbi fsl_assert.pbi fsl_debug_console.pbi fsl_shell.pbi fsl_str.pbi evkbimxrt1050_flexspi_nor_config.pbi evkbimxrt1050_sdram_ini_dcd.pbi fsl_flexspi_nor_boot.pbi
-build smart_washing_machine.pbd : link smart_washing_machine_part0.pbi smart_washing_machine_part1.pbi smart_washing_machine_part2.pbi smart_washing_machine_part3.pbi smart_washing_machine_part4.pbi smart_washing_machine_part5.pbi smart_washing_machine_part6.pbi smart_washing_machine_part7.pbi smart_washing_machine_part8.pbi smart_washing_machine_part9.pbi smart_washing_machine_part10.pbi smart_washing_machine_part11.pbi smart_washing_machine_part12.pbi smart_washing_machine_part13.pbi smart_washing_machine_part14.pbi
+build smart_washing_machine_part0.pbi : link fsl_tickless_systick.pbi heap_4.pbi port.pbi event_groups.pbi list.pbi queue.pbi stream_buffer.pbi tasks.pbi timers.pbi board.pbi clock_config.pbi pin_mux.pbi at_api.pbi at_conn_mbox.pbi at_conn_mgmt.pbi
+build smart_washing_machine_part1.pbi : link at_parser.pbi at_tcp.pbi root_ca.pbi dm_api.pbi dm_client.pbi dm_client_adapter.pbi dm_cota.pbi dm_fota.pbi dm_ipc.pbi dm_log_report.pbi dm_manager.pbi dm_message.pbi dm_message_cache.pbi dm_msg_process.pbi dm_opt.pbi
+build smart_washing_machine_part2.pbi : link dm_ota.pbi dm_server.pbi dm_server_adapter.pbi dm_shadow.pbi dm_tsl_alink.pbi dm_utils.pbi impl_gateway.pbi impl_linkkit.pbi impl_ntp.pbi impl_solo.pbi iotx_cm.pbi iotx_cm_coap.pbi iotx_cm_mqtt.pbi dev_sign_mqtt.pbi infra_cjson.pbi
+build smart_washing_machine_part3.pbi : link infra_compat.pbi infra_defs.pbi infra_log.pbi infra_net.pbi infra_report.pbi infra_sha256.pbi infra_string.pbi infra_timer.pbi iotx_mqtt_client.pbi mqtt_api.pbi MQTTConnectClient.pbi MQTTDeserializePublish.pbi MQTTPacket.pbi MQTTSerializePublish.pbi MQTTSubscribeClient.pbi
+build smart_washing_machine_part4.pbi : link MQTTUnsubscribeClient.pbi cJSON.pbi HAL_DTLS_mbedtls.pbi HAL_TLS_mbedtls.pbi esp8266.pbi wrapper.pbi system_MIMXRT1052.pbi kv.pbi kv_adapt.pbi kv_cli.pbi kv_secure.pbi generic_list.pbi serial_manager.pbi serial_port_uart.pbi lpuart_adapter.pbi
+build smart_washing_machine_part5.pbi : link fsl_cache.pbi fsl_clock.pbi fsl_common.pbi fsl_dcp.pbi fsl_dmamux.pbi fsl_edma.pbi fsl_elcdif.pbi fsl_flexspi.pbi fsl_gpio.pbi fsl_lpi2c.pbi fsl_lpuart.pbi fsl_lpuart_edma.pbi fsl_pwm.pbi fsl_pxp.pbi fsl_snvs_hp.pbi
+build smart_washing_machine_part6.pbi : link fsl_trng.pbi fsl_usdhc.pbi fsl_xbara.pbi Application.pbi Core.pbi Effects.pbi Graphics.pbi Resources.pbi Templates.pbi Views.pbi Washer.pbi ewextgfx.pbi ewextrte.pbi ew_bsp_clock.pbi ew_bsp_display.pbi
+build smart_washing_machine_part7.pbi : link ew_bsp_event.pbi ew_bsp_graphics.pbi ew_bsp_inout.pbi ew_bsp_serial.pbi ew_bsp_system.pbi ew_bsp_touch.pbi tlsf.pbi DeviceDriver.pbi ewmain.pbi esp8266_at.pbi aes.pbi aesni.pbi arc4.pbi aria.pbi asn1parse.pbi
+build smart_washing_machine_part8.pbi : link asn1write.pbi base64.pbi bignum.pbi blowfish.pbi camellia.pbi ccm.pbi certs.pbi chacha20.pbi chachapoly.pbi cipher.pbi cipher_wrap.pbi cmac.pbi ctr_drbg.pbi debug.pbi des.pbi
+build smart_washing_machine_part9.pbi : link dhm.pbi ecdh.pbi ecdsa.pbi ecjpake.pbi ecp.pbi ecp_curves.pbi entropy.pbi entropy_poll.pbi error.pbi gcm.pbi havege.pbi hkdf.pbi hmac_drbg.pbi md.pbi md2.pbi
+build smart_washing_machine_part10.pbi : link md4.pbi md5.pbi md_wrap.pbi memory_buffer_alloc.pbi net_sockets.pbi nist_kw.pbi oid.pbi padlock.pbi pem.pbi pk.pbi pk_wrap.pbi pkcs11.pbi pkcs12.pbi pkcs5.pbi pkparse.pbi
+build smart_washing_machine_part11.pbi : link pkwrite.pbi platform.pbi platform_util.pbi poly1305.pbi ripemd160.pbi rsa.pbi rsa_internal.pbi sha1.pbi sha256.pbi sha512.pbi ssl_cache.pbi ssl_ciphersuites.pbi ssl_cli.pbi ssl_cookie.pbi ssl_srv.pbi
+build smart_washing_machine_part12.pbi : link ssl_ticket.pbi ssl_tls.pbi threading.pbi timing.pbi version.pbi version_features.pbi x509.pbi x509_create.pbi x509_crl.pbi x509_crt.pbi x509_csr.pbi x509write_crt.pbi x509write_csr.pbi xtea.pbi aes_alt.pbi
+build smart_washing_machine_part13.pbi : link des_alt.pbi ecp_alt.pbi ecp_alt_ksdk.pbi ecp_curves_alt.pbi ksdk_mbedtls.pbi flexspi_hyper_flash_ops.pbi fsl_lpuart_freertos.pbi ip_cmd.pbi shell.pbi virtual_com.pbi lighting.pbi i2c.pbi pca9634.pbi rgb_light.pbi washing_machine.pbi
+build smart_washing_machine_part14.pbi : link wiced_iperf.pbi fsl_ft5406_rt.pbi usb_device_cdc_acm.pbi usb_device_class.pbi usb_device_ehci.pbi usb_device_ch9.pbi usb_device_dci.pbi usb_device_descriptor.pbi usb_osa_freertos.pbi usb_phy.pbi fsl_assert.pbi fsl_debug_console.pbi fsl_shell.pbi fsl_str.pbi evkbimxrt1050_flexspi_nor_config.pbi
+build smart_washing_machine_part15.pbi : link evkbimxrt1050_sdram_ini_dcd.pbi fsl_flexspi_nor_boot.pbi
+build smart_washing_machine.pbd : link smart_washing_machine_part0.pbi smart_washing_machine_part1.pbi smart_washing_machine_part2.pbi smart_washing_machine_part3.pbi smart_washing_machine_part4.pbi smart_washing_machine_part5.pbi smart_washing_machine_part6.pbi smart_washing_machine_part7.pbi smart_washing_machine_part8.pbi smart_washing_machine_part9.pbi smart_washing_machine_part10.pbi smart_washing_machine_part11.pbi smart_washing_machine_part12.pbi smart_washing_machine_part13.pbi smart_washing_machine_part14.pbi smart_washing_machine_part15.pbi
 build smart_washing_machine.pbw : browsedata smart_washing_machine.pbd
 
 

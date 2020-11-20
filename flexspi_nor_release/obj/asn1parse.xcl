@@ -73,8 +73,6 @@ C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\TLSF\
 -I
 C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\
 -I
-C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\mbedtls\include\mbedtls\
--I
 C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\mbedtls\port\ksdk\
 -I
 C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\source\common_drivers\
@@ -162,8 +160,6 @@ C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\TargetS
 C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui\TLSF
 -I
 C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\emgui
--I
-C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\mbedtls\include\mbedtls
 -I
 C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\mbedtls\port\ksdk
 -I
@@ -373,6 +369,7 @@ C:\Users\nxf65135\Desktop\RT1050\smart_washing_machine-master-8266\usb\phy
 -D__DEF_STACK_MEM_INDEX__=0
 -D__PRAGMA_PACK_ON__=1
 -D__MULTIPLE_INHERITANCE__=1
+-D__FOR_DEBUG__=
 -D__AAPCS_VFP__=1
 -D__ARM4TM__=4
 -D__ARM5TM__=5
